@@ -36,14 +36,5 @@ Optimal set: RandomFlip, RandomTranslation, RandomRotation, significantly enhanc
 
 ## Final Model
 
-A reduced **InceptionResNetV2** with three Inception ResNet Block A and one Reduction Block A, Batch Norm on standard layers, and residuals scaled by 0.1 for stability.
+The final optimal model used for classification is a reduced **InceptionResNetV2** with three Inception ResNet Block A and one Reduction Block A, Batch Norm on standard layers, and residuals scaled by 0.1 for stability. RandomFlip is applied for data augmentation.
 
-- Augmentation: RandomFlip provided optimal results.
-
-## Conclusions
-
-- Optimal models depend on dataset size and characteristics.
-
-- Simpler architectures can outperform complex ones on smaller datasets.
-
-- Data augmentation is crucial for limited data.
