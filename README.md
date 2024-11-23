@@ -1,20 +1,14 @@
 ## Blood Cell Classification with Computer Vision
 
-Introduction
-
 This project aims to classify blood cell images with computer vision, achieving 97.2% accuracy using a simplified InceptionResNetV2 model. Through experimentation with neural networks and data processing, we identified the optimal architecture and techniques for this task.
 
 Dataset
 
-Size: 15,092 images of eight blood cell types.
+The dataset comprises 15,092 images of eight blood cell types. Visual and statistical analysis revealed variability in cell dimensions and bimodal intensity distributions, likely due to differing imaging conditions.
 
-Balance: Classes are nearly even.
+## Key Experiments
 
-Insights: Visual and statistical analysis revealed variability in cell dimensions and bimodal intensity distributions, likely due to differing imaging conditions.
-
-Key Experiments
-
-Baseline
+# Baseline
 
 MobileNetV2: Achieved 91.73% accuracy but exhibited unstable validation loss.
 
