@@ -10,17 +10,17 @@ The dataset comprises 15,092 images of eight blood cell types. The size of the i
 
 # Key Experiments
 
-## Baseline
+### Baseline
 
 - **MobileNetV2**: Achieved 91.73% accuracy but exhibited unstable validation loss.
 
-## Pretrained Models
+### Pretrained Models
 
 - Fine-tuning **MobileNetV2** with ImageNet weights improved accuracy by 2.7% over baseline.
 
 - **EfficientNetV2B0** showed instability, likely due to excessive complexity for the dataset.
 
-## Architectures
+### Architectures
 
 - **ResNet-like**: Stable performance and validation loss.
 
@@ -30,7 +30,7 @@ The dataset comprises 15,092 images of eight blood cell types. The size of the i
 
 - **InceptionResNetV2 (Simplified)**: Best performance at 97.2% accuracy.
 
-## Final Model
+### Final Model
 
 The final model used for classification is a reduced **InceptionResNetV2** with three Inception ResNet Block A and one Reduction Block A, Batch Norm on standard layers, and residuals scaled by 0.1 for stability. RandomFlip is applied for data augmentation.
 
