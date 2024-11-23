@@ -2,7 +2,7 @@
 
 This project aims to classify blood cell images with computer vision, achieving 97.2% accuracy using a simplified InceptionResNetV2 model. Through experimentation with neural networks and data processing, we identified the optimal architecture and techniques for this task.
 
-![Alt text](images/example_images.png)
+![Alt text](images_example.png)
 
 # Dataset
 
