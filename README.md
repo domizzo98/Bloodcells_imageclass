@@ -10,7 +10,7 @@ The dataset comprises 15,092 images of eight blood cell types. Visual and statis
 
 ## Baseline
 
-MobileNetV2: Achieved 91.73% accuracy but exhibited unstable validation loss.
+\item MobileNetV2: Achieved 91.73% accuracy but exhibited unstable validation loss.
 
 Pretrained Models
 
