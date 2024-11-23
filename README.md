@@ -12,7 +12,7 @@ The dataset comprises 15,092 images of eight blood cell types. The size of the i
 
 ## Baseline
 
-- MobileNetV2: Achieved 91.73% accuracy but exhibited unstable validation loss.
+- **MobileNetV2**: Achieved 91.73% accuracy but exhibited unstable validation loss.
 
 ## Pretrained Models
 
