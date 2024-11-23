@@ -4,7 +4,7 @@ This project aims to classify blood cell images with computer vision, achieving 
 
 ![Alt text](images_example.png)
 
-# Dataset
+### Dataset
 
 The dataset comprises 15,092 images of eight blood cell types. The size of the images is 48×48 pixels. Visual and statistical analysis revealed variability in cell dimensions and bimodal intensity distributions, likely due to differing imaging conditions.
 
