@@ -30,5 +30,5 @@ The dataset comprises 15,092 images of eight blood cell types. Visual and statis
 
 ## Final Model
 
-The final optimal model used for classification is a reduced **InceptionResNetV2** with three Inception ResNet Block A and one Reduction Block A, Batch Norm on standard layers, and residuals scaled by 0.1 for stability. RandomFlip is applied for data augmentation.
+The final model used for classification is a reduced **InceptionResNetV2** with three Inception ResNet Block A and one Reduction Block A, Batch Norm on standard layers, and residuals scaled by 0.1 for stability. RandomFlip is applied for data augmentation.
 
