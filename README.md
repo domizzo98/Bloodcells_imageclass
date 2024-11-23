@@ -18,56 +18,32 @@ The dataset comprises 15,092 images of eight blood cell types. Visual and statis
 
 - **EfficientNetV2B0** showed instability, likely due to excessive complexity for the dataset.
 
-Data Augmentation
+## Data Augmentation
 
 Tested RandomFlip, Translation, Rotation, Brightness, and Contrast.
 
 Optimal set: RandomFlip, RandomTranslation, RandomRotation, significantly enhancing performance.
 
-Simplified Architectures
+## Architectures
 
-ResNet-like: Stable performance and validation loss.
+- **ResNet-like**: Stable performance and validation loss.
 
-DenseNet: Inferior to ResNet.
+- **DenseNet**: Inferior performance compared to ResNet.
 
-Vision Transformer: Stable but less effective.
+- **Vision Transformer**: Stable but less effective.
 
-InceptionResNetV2 (Simplified): Best performance at 97.2% accuracy.
+- **InceptionResNetV2 (Simplified)**: Best performance at 97.2% accuracy.
 
-Final Model
+## Final Model
 
-A reduced InceptionResNetV2 with three Inception ResNet Block A and one Reduction Block A. Key features:
+A reduced **InceptionResNetV2** with three Inception ResNet Block A and one Reduction Block A, Batch Norm on standard layers, and residuals scaled by 0.1 for stability.
 
-Batch normalization on standard layers.
+- Augmentation: RandomFlip provided optimal results.
 
-Residuals scaled by 0.1 for stability.
+## Conclusions
 
-Augmentation: RandomFlip provided optimal results.
+- Optimal models depend on dataset size and characteristics.
 
-Applications: Bounding box isolation, cell counting, and cytological analysis.
+- Simpler architectures can outperform complex ones on smaller datasets.
 
-Conclusions
-
-Optimal models depend on dataset size and characteristics.
-
-Simpler architectures can outperform complex ones on smaller datasets.
-
-Data augmentation is crucial for limited data.
-
-Next Steps
-
-For production, distill the model into a smaller architecture (e.g., ResNet) to improve speed and efficiency.
-
-References
-
-MobileNetV2: Sandler et al.
-
-ResNet: He et al.
-
-DenseNet: Huang et al.
-
-Vision Transformer: Dosovitskiy et al.
-
-InceptionResNetV2: Szegedy et al.
-
-This README summarizes the project’s objectives, methods, and findings. For implementation details, refer to the project notebook.
+- Data augmentation is crucial for limited data.
