@@ -12,11 +12,11 @@ The dataset comprises 15,092 images of eight blood cell types. Visual and statis
 
 - MobileNetV2: Achieved 91.73% accuracy but exhibited unstable validation loss.
 
-Pretrained Models
+## Pretrained Models
 
-Fine-tuning MobileNetV2 with ImageNet weights improved accuracy by 2.7% over baseline.
+- Fine-tuning **MobileNetV2** with ImageNet weights improved accuracy by 2.7% over baseline.
 
-EfficientNetV2B0 showed instability, likely due to excessive complexity for the dataset.
+- **EfficientNetV2B0** showed instability, likely due to excessive complexity for the dataset.
 
 Data Augmentation
 
