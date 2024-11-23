@@ -18,12 +18,6 @@ The dataset comprises 15,092 images of eight blood cell types. Visual and statis
 
 - **EfficientNetV2B0** showed instability, likely due to excessive complexity for the dataset.
 
-## Data Augmentation
-
-Tested RandomFlip, Translation, Rotation, Brightness, and Contrast.
-
-Optimal set: RandomFlip, RandomTranslation, RandomRotation, significantly enhancing performance.
-
 ## Architectures
 
 - **ResNet-like**: Stable performance and validation loss.
